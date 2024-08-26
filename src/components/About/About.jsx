@@ -67,7 +67,7 @@ const About = () => {
                 <FaCheck />
               </div>
               <div className="details">
-                <p className="text__muted">Consultation</p>
+                <p className="text__muted d_t">Consultation</p>
                 <h3>Free</h3>
               </div>
             </div>
@@ -77,7 +77,7 @@ const About = () => {
                 <FaCheck />
               </div>
               <div className="details">
-                <p className="text__muted">Expert</p>
+                <p className="text__muted d_t">Expert</p>
                 <h3>Engineers</h3>
               </div>
             </div>
@@ -87,7 +87,7 @@ const About = () => {
                 <FaCheck />
               </div>
               <div className="details">
-                <p className="text__muted">Customer</p>
+                <p className="text__muted d_t">Customer</p>
                 <h3>Support</h3>
               </div>
             </div>
@@ -97,7 +97,7 @@ const About = () => {
                 <FaCheck />
               </div>
               <div className="details">
-                <p className="text__muted">Quality</p>
+                <p className="text__muted d_t">Quality</p>
                 <h3>Service</h3>
               </div>
             </div>

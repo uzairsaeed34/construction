@@ -280,7 +280,7 @@ export const blogs = [
 export const contacts = [
   {
     name: "Email",
-    value: "maymarbuilder@gmail.com",
+    value: "maymar@gmail.com",
     icon: <MdOutlineAlternateEmail />,
   },
   {

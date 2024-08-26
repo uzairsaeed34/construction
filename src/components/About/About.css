@@ -34,6 +34,7 @@
   background: var(--color-ui-primary);
   border-radius: var(--radius-2);
   transition: var(--transition);
+  overflow: hidden;
 }
 #about .group .row:hover {
   background: var(--color-ui-variant);
@@ -66,6 +67,12 @@
   gap: 20px;
   width: 100%;
 }
+.d_t {
+  font-size: medium;
+}
+#about .group .row .details h3 {
+  font-size: medium;
+}
 
 @media (max-width: 900px) {
   #about .container {
@@ -93,8 +100,18 @@
 }
 
 @media (max-width: 600px) {
+  #about .group .row {
+    gap: 2px;
+    padding: 5px 0;
+  }
   #about .company__media__container .box {
     width: 90px;
     height: 90px;
+  }
+  .d_t {
+    font-size: 14px;
+  }
+  #about .group .row .details h3 {
+    font-size: 13px;
   }
 }

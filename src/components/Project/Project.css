@@ -136,7 +136,9 @@
 .details .btn:hover {
   background-color: var(--color-primary-accent);
 }
-
+.project_card {
+  margin-top: 1rem;
+}
 /* Responsive Styles */
 @media (max-width: 900px) {
   .title {

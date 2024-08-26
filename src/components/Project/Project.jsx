@@ -67,13 +67,9 @@ const Project = () => {
             <div className="image__container">
               <img src={project.image} alt={project.title} />
             </div>
-            <div className="box_p">
-              <h1 className="name">{project.title}</h1>
-            </div>
-            <div className="details">
+            <div className="details project_card">
               <h3 className="name">{project.title}</h3>
               <p className="text__muted description">{project.description}</p>
-              <button className="btn">Read more</button>
             </div>
           </React.Fragment>
         ))}

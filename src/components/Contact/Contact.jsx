@@ -21,9 +21,9 @@ const Contact = () => {
       timeline
         .fromTo(".contact__form", { x: -100, opacity: 0 }, { opacity: 1, x: 0 })
         .fromTo(
-          ".option",
+          ".contact__options",
           { x: 100, opacity: 0 },
-          { opacity: 1, stagger: 0.5, x: 0 }
+          { opacity: 1, x: 0 }
         );
     },
     { scope: container }
@@ -82,19 +82,21 @@ const Contact = () => {
             <button className="btn btn__primary">Send Now</button>
           </div>
         </div>
-        <div className="contact__options">
+        <div className="contact__options contact_info">
           {contacts.map((contact, index) => (
             <div className="option" key={index}>
               <div className="icon__container">{contact.icon}</div>
-              <h3 className="name">{contact.name}</h3>
-              <h4 className="text__muted">{contact.value}</h4>
-              <div>
-                <a href={"#"} className="btn btn__primary">
-                  Contact Us
-                </a>
+              <div className="contact__details">
+                <h3 className="name">{contact.name}</h3>
+                <h4 className="text__muted">{contact.value}</h4>
               </div>
             </div>
           ))}
+          <div className="contact__action">
+            <a href={"#"} className="btn btn__primary">
+              Contact Us
+            </a>
+          </div>
         </div>
       </div>
     </section>

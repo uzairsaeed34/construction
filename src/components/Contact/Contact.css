@@ -53,14 +53,13 @@ input {
   align-items: center;
   margin-top: 30px;
 }
+
 #contact .contact__options {
   flex: 1;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
-}
-
-#contact .contact__options .option {
+  padding: 2rem;
   border-radius: var(--radius-3);
   background: linear-gradient(
     to bottom right,
@@ -68,38 +67,41 @@ input {
     var(--color-ui-secondary)
   );
   box-shadow: var(--shadow-1);
-  transition: var(--transition);
-  padding: 1.2rem;
-  text-align: center;
 }
 
-#contact .contact__options .option:hover {
-  transform: scale(0.98);
-  border-color: var(--color-primary);
-  background: linear-gradient(
-    to bottom right,
-    var(--color-ui-secondary),
-    var(--color-ui-primary)
-  );
+#contact .contact__options .option {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 0;
 }
 
 #contact .contact__options .icon__container {
   width: 4rem;
-  height: 4rem;
+  height: 6rem;
   font-size: 25px;
   background: var(--color-ui-primary);
   border-radius: var(--radius-5);
 }
+
+#contact .contact__options .contact__details {
+  flex: 1;
+}
+
 #contact .contact__options .name {
   font-size: 16px;
   font-weight: 600;
-  margin: 10px 0;
+  margin: 0;
 }
 #contact .contact__options .text__muted {
   font-size: 15px;
   font-weight: 400;
+  margin: 0;
 }
-#contact .contact__options .btn {
+
+#contact .contact__options .contact__action {
+  display: flex;
+  justify-content: center;
   margin-top: 20px;
 }
 
@@ -110,6 +112,9 @@ input {
   }
   #contact .contact__form {
     max-width: 100%;
+    padding: 20px;
+  }
+  #contact .contact__options {
     padding: 20px;
   }
 }
