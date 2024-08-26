@@ -31,7 +31,7 @@ const Header = () => {
             <h1 className="title">
               Building Dreams, <span className="g-text">Creating Reality</span>
             </h1>
-            <p className="text__muted description">
+            <p className="text__muted description hero_text">
               We are dedicated to turning your visions into tangible
               masterpieces. With years of experience and a team of skilled
               professionals, we specialize in delivering high-quality

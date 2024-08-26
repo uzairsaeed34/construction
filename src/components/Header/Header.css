@@ -2,7 +2,9 @@
   background: var(--glow-1);
   position: static !important;
 }
-
+.hero_text {
+  color: rgb(17, 17, 17) !important;
+}
 #header::before {
   content: "";
   position: absolute;
