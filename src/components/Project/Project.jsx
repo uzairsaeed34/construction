@@ -43,10 +43,17 @@ const Project = () => {
     autoplaySpeed: 2000,
     responsive: [
       {
+        breakpoint: 1024, // Adjust the breakpoint for larger screens
+        settings: {
+          slidesToShow: 2,
+          centerPadding: "40px", // Adjust the padding
+        },
+      },
+      {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
-          centerPadding: 0,
+          centerPadding: "0px",
         },
       },
     ],
@@ -64,7 +71,7 @@ const Project = () => {
       <Slider {...settings} className="projects__container">
         {projects.map((project, index) => (
           <React.Fragment key={index}>
-            <div className="image__container">
+            <div className="image__container img_con">
               <img src={project.image} alt={project.title} />
             </div>
             <div className="details project_card">

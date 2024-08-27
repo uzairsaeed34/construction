@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./Header.css";
-import { hero_image } from "../../assets";
+import ft1 from "../../assets/proj_images/ft1.jpg";
 import { Link } from "react-scroll";
 import Achievement from "../Achievement/Achievement";
 import gsap from "gsap";
@@ -49,7 +49,7 @@ const Header = () => {
           </div>
           <div className="column">
             <div className="image__container">
-              <img src={hero_image} alt="" />
+              <img src={ft1} alt="" />
             </div>
           </div>
         </div>

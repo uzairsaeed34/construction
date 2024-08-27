@@ -15,16 +15,16 @@ import {
   member2,
   member3,
   member4,
-  building_5,
-  building_6,
-  building_7,
-  building_8,
-  building_9,
-  building_10,
   blog_1,
   blog_2,
   blog_3,
 } from "./assets";
+import building_5 from "../src/assets/proj_images/proj1.jpg";
+import building_6 from "../src/assets/proj_images/proj2.jpg";
+import building_7 from "../src/assets/proj_images/proj3.jpg";
+import building_9 from "../src/assets/proj_images/proj5.jpg";
+import building_10 from "../src/assets/proj_images/proj6.jpg";
+import building_11 from "../src/assets/proj_images/proj8.jpg";
 
 export const navTabs = [
   { name: "Home", id: "header" },
@@ -147,43 +147,54 @@ export const teams = [
 
 export const projects = [
   {
-    title: "Residential Development Project",
+    title: "5 Marla Residential",
     image: building_5,
-    description: `A comprehensive residential development involving the construction of a new 
-        housing community from initial site clearing and preparation to final home construction and landscaping`,
+    description: `This 5 Marla residential house in Multan exemplifies our focus on quality and modern design. 
+    With three bedrooms, a stylish kitchen, and elegant living spaces, the home blends contemporary architecture with 
+    traditional elements. From the foundation to the final finishes, this project showcases our commitment to delivering durable,
+     comfortable, and beautifully crafted homes.`,
   },
   {
-    title: "Commercial Office Building",
+    title: "5 Marla Residential",
     image: building_6,
-    description: `The construction of a multi-story office building including all 
-       architectural and structural design, coordination of specialized trades for 
-       HVAC and electrical systems, and complete project oversight.`,
+    description: `This 5 Marla home in Multan reflects our expertise in crafting functional and stylish living spaces.
+     Featuring a modern layout with three well-designed bedrooms, a contemporary kitchen, and open living areas,
+      this house combines practicality with aesthetic appeal. Our attention to detail and commitment to quality are evident throughout, 
+      making it a perfect blend of comfort and style.`,
   },
   {
-    title: "Retail Space Renovation",
+    title: "5 Marla Residential",
     image: building_7,
-    description: `Transforming an outdated retail store into a modern commercial space, 
-    involving interior demolition, new layout design, installation of new fixtures, 
-    and updating utilities.`,
+    description: `This recently completed 5 Marla house in Multan showcases our dedication to creating beautiful and livable homes.
+     With a focus on maximizing space, the house includes three bedrooms, a modern kitchen, and inviting living areas. 
+     The design balances contemporary style with comfort, making it a perfect example of our ability to deliver quality 
+     construction tailored to our clients' needs.`,
   },
   {
-    title: "Industrial Warehouse Construction",
-    image: building_8,
-    description: `Building a large-scale industrial warehouse, including land clearing,
-     foundation work, steel structure erection, and complete construction management 
-     from start to finish.`,
-  },
-  {
-    title: "Historic Building Restoration",
+    title: "10 Marla Residential",
     image: building_9,
-    description: `Restoring and renovating a historic building to preserve its architectural integrity while updating it to meet modern standards, involving meticulous 
-    craftsmanship and specialized restoration techniques.`,
+    description: `This 10 Marla residential house in Multan is a testament to our commitment to building spacious and elegant homes.
+     Designed with a focus on luxury and functionality, the house features five bedrooms, a modern kitchen, expansive living areas,
+      and a beautifully landscaped garden. Every detail, from the high-quality materials to the sophisticated design, 
+      reflects our dedication to creating homes that offer both comfort and style.`,
   },
   {
-    title: "Educational Facility Expansion",
+    title: "Kitchen Renovation",
     image: building_10,
-    description: `Expanding an existing school with new classrooms and facilities, encompassing all phases from initial design and site preparation to construction and 
-    final project management to ensure timely completion.`,
+    description: `This kitchen renovation project in Multan highlights our expertise in transforming outdated spaces into modern, 
+    functional, and stylish areas. We upgraded the layout to enhance efficiency, incorporated high-quality materials, 
+    and added contemporary finishes. The result is a bright, inviting kitchen that seamlessly blends style with practicality,
+    perfectly tailored to meet the client’s needs.`,
+  },
+  {
+    title: "5 Marla Residential",
+    image: building_11,
+    description: `This custom-built 5 Marla house in Multan reflects our dedication to creating personalized living spaces. 
+    With a thoughtfully designed layout, the home includes three bedrooms, a modern kitchen, and a cozy living area. 
+    The blend of contemporary design elements and high-quality finishes ensures a comfortable and stylish environment tailored 
+    to the client’s vision.
+
+`,
   },
 ];
 

@@ -1,6 +1,9 @@
 import React, { useRef } from "react";
 import "./About.css";
-import { about_image, building_1, building_2, building_3 } from "../../assets";
+import about_image from "../../assets/proj_images/about.jpg";
+import building_1 from "../../assets/proj_images/ab1.jpg";
+import building_2 from "../../assets/proj_images/ab2.jpg";
+import building_3 from "../../assets/proj_images/ab3.jpg";
 import { FaCheck } from "react-icons/fa";
 import { Link } from "react-scroll";
 import gsap from "gsap";
@@ -56,10 +59,13 @@ const About = () => {
             </div>
           </div>
           <p className="text__muted description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae dicta
-            natus corporis. Aspernatur, adipisci dolorem culpa provident nemo
-            quo dolores ipsum eaque commodi quasi, ad modi nisi praesentium
-            pariatur eius.
+            At Maymar Builders, based in Multan, we specialize in building
+            high-quality residential homes and expertly renovating older
+            properties. With a focus on craftsmanship and attention to detail,
+            we turn your visions into reality, ensuring each project is
+            completed on time and to the highest standards. Whether you’re
+            building a new home or revitalizing an existing one, our dedicated
+            team is here to bring your dreams to life.
           </p>
           <div className="group">
             <div className="row">
