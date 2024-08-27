@@ -1,6 +1,6 @@
 import { IoCallOutline, IoLocationOutline } from "react-icons/io5";
 import { MdOutlineAlternateEmail } from "react-icons/md";
-import { FaYoutube, FaInstagram, FaDrawPolygon } from "react-icons/fa";
+import { FaInstagram, FaDrawPolygon } from "react-icons/fa";
 import { CiLinkedin, CiFacebook } from "react-icons/ci";
 import { SiBlueprint, SiHomeassistantcommunitystore } from "react-icons/si";
 import { AiOutlineFileProtect } from "react-icons/ai";
@@ -90,11 +90,6 @@ export const teams = [
     social: [
       { name: "Facebook", icon: <CiFacebook />, url: "http://facebook.com" },
       { name: "LinkedIn", icon: <CiLinkedin />, url: "http://linkedin.com" },
-      {
-        name: "Youtube",
-        icon: <FaYoutube />,
-        url: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
-      },
       { name: "Instagram", icon: <FaInstagram />, url: "http://instagram.com" },
     ],
   },
@@ -105,11 +100,6 @@ export const teams = [
     social: [
       { name: "Facebook", icon: <CiFacebook />, url: "http://facebook.com" },
       { name: "LinkedIn", icon: <CiLinkedin />, url: "http://linkedin.com" },
-      {
-        name: "Youtube",
-        icon: <FaYoutube />,
-        url: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
-      },
       { name: "Instagram", icon: <FaInstagram />, url: "http://instagram.com" },
     ],
   },
@@ -120,11 +110,6 @@ export const teams = [
     social: [
       { name: "Facebook", icon: <CiFacebook />, url: "http://facebook.com" },
       { name: "LinkedIn", icon: <CiLinkedin />, url: "http://linkedin.com" },
-      {
-        name: "Youtube",
-        icon: <FaYoutube />,
-        url: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
-      },
       { name: "Instagram", icon: <FaInstagram />, url: "http://instagram.com" },
     ],
   },
@@ -135,11 +120,6 @@ export const teams = [
     social: [
       { name: "Facebook", icon: <CiFacebook />, url: "http://facebook.com" },
       { name: "LinkedIn", icon: <CiLinkedin />, url: "http://linkedin.com" },
-      {
-        name: "Youtube",
-        icon: <FaYoutube />,
-        url: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
-      },
       { name: "Instagram", icon: <FaInstagram />, url: "http://instagram.com" },
     ],
   },
