@@ -1,3 +1,6 @@
+#blog {
+  background: linear-gradient(135deg, #313131, #245673);
+}
 #blog .blogs__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -20,7 +23,9 @@
   border-radius: var(--radius-4);
   z-index: 4;
 }
-
+#blog .b_a {
+  color: var(--color-primary);
+}
 #blog .blog__card:hover img {
   transform: scale(1.2);
 }

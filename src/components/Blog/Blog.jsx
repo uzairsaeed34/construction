@@ -37,7 +37,10 @@ const Blog = () => {
     <section id="blog" ref={container}>
       <div className="container">
         <h1 className="title">
-          <span className="g-text">Recent Blog Posts</span>
+          <span className="b_h">
+            {" "}
+            Recent <span className="b_a"> Blogs</span>
+          </span>
         </h1>
         <h3 className="sub__title">Explore our articles</h3>
         <div className="blogs__container">

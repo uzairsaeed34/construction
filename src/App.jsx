@@ -2,7 +2,7 @@ import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
-import Teams from "./components/Teams/Teams";
+// import Teams from "./components/Teams/Teams";
 import Project from "./components/Project/Project";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Blog from "./components/Blog/Blog";
@@ -16,7 +16,7 @@ function App() {
       <Header />
       <About />
       <Services />
-      <Teams />
+      {/* <Teams /> */}
       <Project />
       <Testimonial />
       <Blog />

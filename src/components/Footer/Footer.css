@@ -1,9 +1,25 @@
 /* Footer Styles */
 .footer {
-  background-color: var(--color-ui-secondary);
-  color: var(--color-text);
+  background: url("../../assets/proj_images/ft1.jpg") no-repeat center
+    center/cover;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  color: var(--color-white);
   padding: 60px 20px;
   font-size: 15px;
+  overflow: hidden;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  z-index: 0;
 }
 
 .footer__container {
@@ -12,6 +28,9 @@
   flex-wrap: wrap;
   max-width: 1100px;
   margin: auto;
+  padding: 0 20px; /* Add padding to the container for better spacing */
+  position: relative;
+  z-index: 1; /* Ensures content is above the overlay */
 }
 
 .footer__section {
@@ -29,7 +48,7 @@
 .footer__description {
   font-size: 15px;
   line-height: 1.6;
-  color: var(--color-muted);
+  color: var(--color-white); /* Ensure text is white */
 }
 
 .footer__list,
@@ -42,10 +61,20 @@
 .footer__contact li {
   margin-bottom: 10px;
 }
+.footer__contact li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer__contact li svg {
+  margin-right: 10px; /* Adds space between the icon and the text */
+  font-size: 18px; /* Adjust the icon size if needed */
+}
 
 .footer__list a,
 .footer__contact a {
-  color: var(--color-text);
+  color: var(--color-white); /* Ensure links are white */
   text-decoration: none;
   transition: color var(--transition);
 }
@@ -56,7 +85,7 @@
 }
 
 .footer__social-icons a {
-  color: var(--color-text);
+  color: var(--color-white); /* Ensure social icons are white */
   font-size: 18px;
   margin-right: 15px;
   transition: color var(--transition);
@@ -72,7 +101,7 @@
   border-top: 1px solid var(--color-ui-variant);
   padding-top: 10px;
   font-size: 14px;
-  color: var(--color-muted);
+  color: var(--color-white);
 }
 
 /* Responsive Styles */
@@ -84,7 +113,7 @@
   }
 
   .footer__section {
-    margin: 10px 0;
+    margin: 5px 0;
   }
 }
 

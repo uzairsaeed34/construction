@@ -72,7 +72,7 @@ const Navbar = () => {
         ))}
       </div>
       <div className="box buttons">
-        <Link to="contact" className="btn contact__btn">
+        <Link to="contact" className="btn contact__btn btn_c">
           Contact Us
         </Link>
         <div

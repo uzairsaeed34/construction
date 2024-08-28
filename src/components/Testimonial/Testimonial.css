@@ -1,5 +1,5 @@
 #testimonial {
-  background: var(--color-ui-secondary);
+  background: linear-gradient(135deg, #313131, #245673);
   overflow: hidden;
 }
 #testimonial .testimonial__container {

@@ -48,13 +48,13 @@ const Footer = () => {
           <h2 className="footer__title">Contact Us</h2>
           <ul className="footer__contact">
             <li>
-              <i className="fas fa-map-marker-alt"></i> Wapda Town, Multan
+              <FaMapMarkerAlt /> Wapda Town, Multan
             </li>
             <li>
-              <i className="fas fa-phone-alt"></i> +92 303 7017060
+              <FaPhoneAlt /> +92 303 7017060
             </li>
             <li>
-              <i className="fas fa-envelope"></i> info@meymarbuilders.com
+              <FaEnvelope /> info@meymarbuilders.com
             </li>
           </ul>
         </div>
@@ -63,30 +63,22 @@ const Footer = () => {
           <h2 className="footer__title">Follow Us</h2>
           <div className="footer__social-icons">
             <a href="#">
-              <i className="fab fa-facebook-f">
-                <FaFacebookF />
-              </i>
+              <FaFacebookF />
             </a>
             <a href="#">
-              <i className="fab fa-twitter">
-                <FaTwitter />
-              </i>
+              <FaTwitter />
             </a>
             <a href="#">
-              <i className="fab fa-instagram">
-                <FaInstagram />
-              </i>
+              <FaInstagram />
             </a>
             <a href="#">
-              <i className="fab fa-linkedin-in">
-                <FaLinkedinIn />
-              </i>
+              <FaLinkedinIn />
             </a>
           </div>
         </div>
       </div>
 
-      <div className="footer__bottom">
+      <div className="footer__bottom fb_t">
         <p>&copy; 2024 Meymar Builders. All rights reserved.</p>
       </div>
     </footer>

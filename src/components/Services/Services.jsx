@@ -31,7 +31,7 @@ const Services = () => {
     { scope: container }
   );
   return (
-    <section id="services" ref={container}>
+    <section id="services" ref={container} className="s_c">
       <div className="container">
         <div className="services__top">
           <h1 className="title">

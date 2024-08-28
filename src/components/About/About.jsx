@@ -44,7 +44,7 @@ const About = () => {
           <h1 className="title">
             <span className="g-text">About Us</span>
           </h1>
-          <h3 className="sub__title">
+          <h3 className="sub__title ab_desc">
             Realizing visions through fundamental focus.
           </h3>
           <div className="company__media__container">
@@ -58,7 +58,7 @@ const About = () => {
               <img src={building_3} alt="" />
             </div>
           </div>
-          <p className="text__muted description">
+          <p className="text__muted description ab_desc">
             At Maymar Builders, based in Multan, we specialize in building
             high-quality residential homes and expertly renovating older
             properties. With a focus on craftsmanship and attention to detail,

@@ -45,7 +45,7 @@ const Achievement = () => {
         </div>
         <div className="details">
           <div className="count__row">
-            <Odometer value={clients} className="title" />
+            <Odometer value={clients} className="title " />
             <h1 className="g-text title">K</h1>
           </div>
           <small className="text__muted">Happy Customers</small>

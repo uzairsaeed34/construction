@@ -1,5 +1,6 @@
 #contact {
   overflow: hidden;
+  background: linear-gradient(135deg, #313131, #245673);
 }
 #contact .container {
   display: flex;

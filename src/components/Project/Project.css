@@ -3,7 +3,8 @@
   padding: 80px 20px;
   background-color: var(--color-ui-primary);
   text-align: center;
-  overflow: hidden; /* Prevent overflow to avoid unwanted scrolling */
+  overflow: hidden;
+  background: linear-gradient(135deg, #313131, #245673);
 }
 
 .project__top {
@@ -14,12 +15,13 @@
   font-size: 48px;
   font-weight: 800;
   margin-bottom: 20px;
+  color: white;
 }
 
 .sub__title {
   font-size: 20px;
   font-weight: 600;
-  color: var(--color-muted);
+  color: white;
 }
 
 /* Slider Container */

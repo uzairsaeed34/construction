@@ -6,17 +6,19 @@
   padding: 10px 20px;
   position: relative;
   z-index: 300;
+  background: linear-gradient(135deg, #313131, #245673);
 }
 .navbar .logo .name {
-  color: var(--color-text);
+  color: blue;
 }
 .navbar .logo .name span {
   color: var(--color-white);
 }
 .navbar.visible {
   position: sticky;
-  background: var(--color-ui-secondary);
+  background: linear-gradient(135deg, #313131, #245673);
   box-shadow: var(--shadow-1);
+  color: white;
 }
 .navbar.visible .logo .name span {
   color: var(--color-primary);
@@ -38,7 +40,9 @@
 .navbar.visible .nav__tabs .tab {
   color: var(--color-text);
 }
-
+.btn_c {
+  padding: 10px 15px !important;
+}
 .navbar .nav__tabs .tab.active {
   color: var(--color-white);
   background: var(--gradient-1);
