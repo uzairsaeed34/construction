@@ -1,30 +1,39 @@
+/* Testimonial Section */
 #testimonial {
-  background: linear-gradient(135deg, #313131, #245673);
   overflow: hidden;
+  padding: 10px 20px; /* Padding for the section */
 }
+
 #testimonial .testimonial__container {
   margin-top: 50px;
 }
+
 #testimonial .slick-prev,
 #testimonial .slick-next {
-  display: none;
+  display: none; /* Hide navigation arrows */
 }
+
 #testimonial .slick-track {
   display: flex !important;
   gap: 20px;
 }
+
 #testimonial .slick-slide {
   height: inherit !important;
   padding: 20px;
   border-radius: var(--radius-3);
   display: flex;
   flex-direction: column;
-  background: var(--color-ui-primary);
-  transition: var(--transition);
+  background: #34495e; /* Dark gray-blue background for the testimonials */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
+
 #testimonial .slick-slide:hover {
-  transform: scale(0.97);
+  transform: scale(1.03); /* Slightly enlarge on hover */
+  background-color: #3b5998; /* Change background color on hover */
 }
+
 #testimonial .slick-slide > div {
   flex: 1;
   display: flex;
@@ -37,24 +46,53 @@
   align-items: center;
   gap: 20px;
   padding: 10px 20px;
+  background: #1abc9c; /* Teal background for the user row */
+  border-radius: var(--radius-3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a soft shadow */
 }
+
 #testimonial .slick-slide .user__row .name {
   font-size: 15px;
+  font-weight: 700;
+  color: #ffffff; /* White text for the name */
 }
 
 #testimonial .slick-slide .content {
   flex: 1;
+  padding: 20px;
+  color: #ecf0f1; /* Light text color for readability */
+  font-size: 14px;
+  line-height: 1.6;
 }
+
 #testimonial .slick-slide .stars__container {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: var(--color-warning);
+  color: #f1c40f; /* Golden yellow for the stars */
   margin-bottom: 10px;
 }
 
+/* Responsive Styles */
 @media (max-width: 600px) {
   #testimonial .slick-track {
     gap: 0;
+  }
+
+  #testimonial .slick-slide {
+    padding: 15px; /* Reduce padding on smaller screens */
+    background: #3b5998; /* Darker background on smaller screens */
+  }
+
+  #testimonial .slick-slide .user__row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  #testimonial .slick-slide .content {
+    padding: 15px;
+    font-size: 13px; /* Slightly smaller text on smaller screens */
   }
 }

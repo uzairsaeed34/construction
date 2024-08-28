@@ -1,30 +1,48 @@
 .service__card {
-  background: var(--color-ui-secondary);
+  background: #2c3e50; /* Dark background for a modern look */
   padding: 20px;
   border-radius: var(--radius-3);
   border: solid 2px transparent;
-  transition: var(--transition);
-  box-shadow: var(--shadow-1);
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    border-color 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Darker shadow for depth */
+  color: #ecf0f1; /* Light text color for readability */
 }
+
 .service__card:hover {
-  border-color: var(--color-primary);
-  background: var(--color-ui-variant);
+  border-color: #e74c3c; /* Bright red border on hover */
+  background: #34495e; /* Slightly darker background on hover */
+  transform: translateY(-5px); /* Lift the card slightly on hover */
 }
+
 .service__card .icon__container {
   font-size: 45px;
   width: 4rem;
   height: 4rem;
+  color: #e67e22; /* Orange color for icons */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px; /* Center the icon and add space below */
+  transition: transform 0.3s ease, color 0.3s ease;
 }
+
 .service__card:hover .icon__container {
-  transform: scale(1.2);
-  color: var(--color-primary);
+  transform: scale(1.2); /* Slightly enlarge icon on hover */
+  color: #d35400; /* Darker orange on hover */
 }
 
 .service__card .name {
-  font-size: 16px;
-  margin: 30px 0 10px 0;
+  font-size: 18px; /* Slightly larger font for the name */
+  font-weight: 700; /* Bold font weight */
+  margin: 20px 0 10px 0;
+  color: #ecf0f1; /* Light text color */
+  text-align: center; /* Center the name text */
 }
 
 .service__card .description {
   font-size: 14px;
+  color: #bdc3c7; /* Muted gray for the description text */
+  line-height: 1.6;
+  text-align: center; /* Center the description text */
 }

@@ -6,20 +6,23 @@
   padding: 10px 20px;
   position: relative;
   z-index: 300;
-  background: linear-gradient(135deg, #313131, #245673);
 }
+
 .navbar .logo .name {
   color: blue;
 }
+
 .navbar .logo .name span {
   color: var(--color-white);
 }
+
 .navbar.visible {
   position: sticky;
   background: linear-gradient(135deg, #313131, #245673);
   box-shadow: var(--shadow-1);
-  color: white;
+  color: aliceblue;
 }
+
 .navbar.visible .logo .name span {
   color: var(--color-primary);
 }
@@ -29,6 +32,7 @@
   align-items: center;
   gap: 10px;
 }
+
 .navbar .nav__tabs .tab {
   display: flex;
   align-items: center;
@@ -37,12 +41,15 @@
   color: var(--color-white);
   border-radius: var(--radius-3);
 }
+
 .navbar.visible .nav__tabs .tab {
   color: var(--color-text);
 }
+
 .btn_c {
   padding: 10px 15px !important;
 }
+
 .navbar .nav__tabs .tab.active {
   color: var(--color-white);
   background: var(--gradient-1);
@@ -52,12 +59,14 @@
   background: var(--gradient-1);
   color: var(--color-white);
 }
+
 .navbar .cancel__btn,
 .navbar .menu__btn {
   display: none;
   background: transparent;
   font-size: 25px;
 }
+
 .navbar .cancel__btn {
   position: absolute;
   top: 10px;
@@ -91,7 +100,11 @@
     min-height: 100vh;
     max-width: 350px;
     display: block;
-    background: var(--color-ui-secondary);
+    background: linear-gradient(
+      135deg,
+      #313131,
+      #245673
+    ); /* Apply the gradient background */
     transition: var(--transition);
     z-index: 350;
     padding: 20px;
@@ -101,7 +114,7 @@
     left: 0;
   }
   .navbar .nav__tabs .tab {
-    color: var(--color-text);
+    color: var(--color-white); /* Ensure the text color is white */
   }
   .navbar .cancel__btn,
   .navbar .menu__btn {

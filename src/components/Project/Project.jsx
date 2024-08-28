@@ -74,7 +74,7 @@ const Project = () => {
             <div className="image__container img_con">
               <img src={project.image} alt={project.title} />
             </div>
-            <div className="details project_card">
+            <div className="details project_card p_det">
               <h3 className="name">{project.title}</h3>
               <p className="text__muted description">{project.description}</p>
             </div>

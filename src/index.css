@@ -50,7 +50,7 @@ body {
   min-height: 100vh;
   font-family: "Sora", sans-serif;
   color: var(--color-text);
-  background: var(--color-ui-primary);
+  background: linear-gradient(to right, #313131, #245673);
   overscroll-behavior: contain;
 }
 
